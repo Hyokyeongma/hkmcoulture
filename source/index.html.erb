@@ -1,18 +1,13 @@
 ---
-title: Welcome to Middleman
+title: Home
 ---
 
-<%= partial "layouts/partials/slider" %>
+<% content_for :metas do %>
+    <title><%= data.pages.home.title %> | <%= data.settings.main.site_name %></title>
+    <meta name="description" content=<%= data.pages.home.description %> />
+<% end %>
 
-<section class="pt40 pb0">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h6 class="uppercase mb0">Free shipping on all orders over £50 for the month of October</h6>
-            </div>
-        </div>
-    </div>
-</section>
+<%= partial "layouts/partials/slider" %>
 
 <section class="pt40 pb0">
     <div class="container">

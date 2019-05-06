@@ -15,3 +15,21 @@ collections:
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: Description, name: description, widget: string, required: false}
+      - file: "data/pages/about.yml"
+        label: About
+        name: about
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: string, required: false}
+          - {label: Image, name: image, widget: image, required: false}
+          - {label: 'About content', name: 'content', widget: 'markdown'}
+  - name: settings
+    label: Settings
+    files:
+      - file: data/settings/main.yml
+        label: Main
+        name: main
+        fields:
+          - {label: site_name, name: site_name, widget: string, required: false}
+          - {label: email, name: email widget: string, required: false}
+          - {label: instagram, name: instagram widget: string, required: false}
