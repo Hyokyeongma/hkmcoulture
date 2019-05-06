@@ -30,7 +30,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: Description, name: description, widget: string, required: false}
-          - {label: 'Contact content', name: 'content', widget: 'markdown'}
+          - {label: 'Contact content', name: 'content', widget: string}
   - name: settings
     label: Settings
     files:
