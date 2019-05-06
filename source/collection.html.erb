@@ -1,0 +1,53 @@
+---
+title: Collection
+description: 
+---
+
+
+<% content_for :metas do %>
+    <title><%= data.pages.collection.title %> | <%= data.settings.main.site_name %></title>
+    <meta name="description" content=<%= data.pages.collection.description %> />
+<% end %>
+
+<section class="page-title page-title-4 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0"><%= data.pages.collection.title %></h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="active"><%= data.pages.collection.title %></li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+
+<section>
+    <div class="container">
+        
+        <div class="row mb64 mb-xs-32">
+            <% blog('products').articles.each do |prod| %>
+                <div class="col-sm-6">
+                    <div class="image-caption cast-shadow hover-caption">
+                        <img alt="Captioned Image" src="img/fashion1.jpg">
+                        <div class="caption">
+                            <p>
+                                <strong><%= prod.title %></strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <% end %>
+        </div>
+
+
+    </div>
+    <!--end of container-->
+</section>

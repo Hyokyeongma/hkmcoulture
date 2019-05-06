@@ -7,6 +7,7 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem "middleman-livereload"
 gem 'sprockets', github: 'rails/sprockets'
 gem "middleman-sprockets" 
+gem "middleman-blog"
 
 
 gem 'optional_html', :git => 'https://github.com/tommysundstrom/middleman-rack-optional-html.git'

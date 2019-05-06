@@ -20,6 +20,16 @@ helpers do
   end
 end
 
+
+activate :blog do |blog|
+  blog.name = "products"
+  blog.permalink = "products/{title}"
+  blog.sources = "products/{title}"
+  blog.default_extension = ".html.erb"
+  blog.per_page = 10
+  blog.page_link = "page/{num}"
+end
+
 configure :build do
   # Minify css on build
   activate :minify_css

@@ -41,3 +41,11 @@ collections:
           - {label: site_name, name: site_name, widget: string, required: false}
           - {label: email, name: email, widget: string, required: false}
           - {label: instagram, name: instagram, widget: string, required: false}
+  - name: "product" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Product" # Used in the UI, ie.: "New Post"
+    folder: "source/products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: Image, name: image, widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
