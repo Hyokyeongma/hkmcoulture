@@ -15,6 +15,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: Description, name: description, widget: string, required: false}
+          - {label: Banner, name: banner, widget: image, required: false}
       - file: "data/pages/about.yml"
         label: About
         name: about
