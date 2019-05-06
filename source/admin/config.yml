@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: source/img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: "data/pages/home.yml"
+        label: Homepage
+        name: home
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: string, required: false}

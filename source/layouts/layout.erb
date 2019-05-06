@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <% if yield_content :metas %>
+            <%= yield_content :metas %>
+        <% else %>
+            <title>HKMCOULTURE</title>
+        <% end %>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+
+        <%= stylesheet_link_tag "bootstrap.css"; %>
+        <%= stylesheet_link_tag "themify-icons"; %>
+        <%= stylesheet_link_tag "flexslider"; %>
+        <%= stylesheet_link_tag "lightbox.min"; %>
+        <%= stylesheet_link_tag "ytplayer"; %>
+        <%= stylesheet_link_tag "theme-gunmetal"; %>
+        <%= stylesheet_link_tag "custom"; %>
+        
+    </head>
+    <body class="scroll-assist">
+        <%= partial "layouts/partials/nav" %>
+        
+        <%= yield %>
+
+        <%= partial "layouts/partials/footer" %>
+        
+        <%= javascript_include_tag "site" %>
+        <#%= yield_content :scripts %>
+    </body>
