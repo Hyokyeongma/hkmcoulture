@@ -31,5 +31,5 @@ collections:
         name: main
         fields:
           - {label: site_name, name: site_name, widget: string, required: false}
-          - {label: email, name: email widget: string, required: false}
-          - {label: instagram, name: instagram widget: string, required: false}
+          - {label: email, name: email, widget: string, required: false}
+          - {label: instagram, name: instagram, widget: string, required: false}
