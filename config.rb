@@ -22,13 +22,16 @@ end
 
 
 activate :blog do |blog|
+  # blog.permalink = "products/{title}.html"
+  # blog.sources = "products/{title}.html"
+  # blog.layout = "product-layout"
   blog.name = "products"
   blog.permalink = "products/{title}"
   blog.sources = "products/{title}"
   blog.per_page = 10
   blog.page_link = "page/{num}"
-  blog.layout = "layouts/product"
-  blog.default_extension = ".html.markdown"
+  blog.layout = "layouts/product-layout"
+  
 end
 
 configure :build do
