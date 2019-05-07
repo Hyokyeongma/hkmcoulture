@@ -27,12 +27,11 @@
                                 <li class="has-dropdown">
                                     <a href="/collection">Collection</a>
                                     <ul>
-                                        <li>
-                                            <a href="#">French</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Deutsch</a>
-                                        </li>
+                                        <% blog('products').articles.each do |prod| %>
+                                            <li>
+                                                <a href="<%= prod.url.chomp('index.html').chomp('.html').chomp('/') %>"><%= prod.title %></a>
+                                            </li>
+                                        <% end %>
                                     </ul>
                                 </li>
                                 <li>

@@ -29,26 +29,21 @@ description:
     <!--end of container-->
 </section>
 
-<div class="container mt80 mb40">
-    <!--end of row-->
-    <div class="row masonry-loader fadeOut">
-        <div class="col-sm-12 text-center">
-            <div class="spinner"></div>
+<section class="pt40 pb0">
+    <div class="container">
+        <div class="row">
+            <% blog('products').articles.each do |prod| %>
+                <div class="col-sm-6">
+                    <div class="image-tile inner-title title-center text-center">
+                        <a href="<%= prod.url.chomp('index.html').chomp('.html').chomp('/') %>">
+                            <%= image_tag(prod.data.image || "/img/shop.jpg", alt: prod.data.title) %>
+                            <div class="title">
+                                <h4 class="uppercase mb0"><%= prod.title %></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            <% end %>
         </div>
     </div>
-    <div class="row masonry " style="position: relative; height: 2062.5px;">
-        <% blog('products').articles.each do |prod| %>
-            <div class="col-sm-6 masonry-item project fadeIn" data-filter="People" style="position: absolute; left: 0px; top: 0px;">
-                <div class="image-tile inner-title hover-reveal text-center">
-                    <a href="<%= prod.url %>">
-                        <%= image_tag(prod.data.image || "/img/shop.jpg", alt: prod.data.title) %>
-                        <div class="title">
-                            <h5 class="uppercase mb0"><%= prod.title %></h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        <% end %>
-    </div>
-    <!--end of row-->
-</div>
+</section>
