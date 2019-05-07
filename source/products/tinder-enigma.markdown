@@ -9,7 +9,7 @@ This piece secures with a gold metal clasp. The functional keys swing to one sid
 
 **Dimensions**
 
-**o** Width: 26cm
+o Width: 26cm
 
 o Height: 20cm
 
