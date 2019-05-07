@@ -44,24 +44,21 @@
         </section>
 
 
-        <section>
+        <section class="image-edge">
+            <div class="col-md-6 col-sm-4 p0">
+                <img alt="<%= current_page.data.title %>" src="<%= current_page.data.image %>" />
+            </div>
             <div class="container">
-                <div class="row v-align-children">
-                    <div class="col-md-6 col-sm-6 text-center mb-xs-24">
-                        <img class="cast-shadow" alt="Screenshot" src="img/screenshot.jpg">
-                        <img alt="image" class="cast-shadow" src="<%= current_page.data.image %>" />
-                    </div>
-                    <div class="col-md-6 col-sm-5 col-sm-offset-1">
-                        <h3><%= current_page.data.title %></h3>
+                <div class="col-md-5 col-md-offset-1 col-sm-7 col-sm-offset-1 v-align-transform right">
+                    <h3><%= current_page.data.title %></h3>
                         
-                        <%= yield %>
-                        
-                    </div>
+                    <%= yield %>
                 </div>
-                <!--end of row-->
             </div>
             <!--end of container-->
         </section>
+
+
 
         <%= partial "layouts/partials/footer" %>
         
