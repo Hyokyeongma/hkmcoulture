@@ -27,6 +27,8 @@ activate :blog do |blog|
   blog.sources = "products/{title}"
   blog.per_page = 10
   blog.page_link = "page/{num}"
+  blog.layout = "layouts/product"
+  blog.default_extension = ".html.markdown"
 end
 
 configure :build do
