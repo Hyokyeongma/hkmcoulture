@@ -27,7 +27,7 @@
                                 <li class="has-dropdown">
                                     <a href="/collection">Collection</a>
                                     <ul>
-                                        <% blog('products').articles.each do |prod| %>
+                                        <% blog('products').articles.reverse.each do |prod| %>
                                             <li>
                                                 <a href="<%= prod.url.chomp('index.html').chomp('.html').chomp('/') %>"><%= prod.title %></a>
                                             </li>

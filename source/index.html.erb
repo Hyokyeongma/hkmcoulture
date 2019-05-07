@@ -12,7 +12,7 @@ title: Home
 <section class="pt40 pb0">
     <div class="container">
         <div class="row">
-            <% blog('products').articles.first(2).each do |prod| %>
+            <% blog('products').articles.reverse.first(2).each do |prod| %>
                 <div class="col-sm-6">
                     <div class="image-tile inner-title title-center text-center">
                         <a href="<%= prod.url.chomp('index.html').chomp('.html').chomp('/') %>">
