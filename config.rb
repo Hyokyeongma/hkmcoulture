@@ -23,7 +23,7 @@ end
 
 activate :blog do |blog|
   blog.name = "products"
-  blog.permalink = "products/{title}"
+  blog.permalink = "products/{title}.html"
   blog.sources = "products/{title}"
   blog.per_page = 10
   blog.page_link = "page/{num}"
