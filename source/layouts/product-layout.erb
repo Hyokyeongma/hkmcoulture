@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <% if yield_content :metas %>
+            <%= yield_content :metas %>
+        <% else %>
+            <title>HKMCOULTURE</title>
+        <% end %>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+
+        <%= stylesheet_link_tag "bootstrap"; %>
+        <%= stylesheet_link_tag "themify-icons"; %>
+        <%= stylesheet_link_tag "flexslider"; %>
+        <%= stylesheet_link_tag "lightbox.min"; %>
+        <%= stylesheet_link_tag "ytplayer"; %>
+        <%= stylesheet_link_tag "theme-gunmetal"; %>
+        <%= stylesheet_link_tag "custom"; %>
+        
+    </head>
+    <body class="scroll-assist">
+        <%= partial "layouts/partials/nav" %>
+        
+        <div class="container mt80">
+            <div class="product-single">
+                <div class="row mb24 mb-xs-48">
+                    <div class="col-md-5 col-sm-6">
+                        <div class="image-tile">
+                            <%= image_tag(current_page.data.image || "../img/shop.jpg", alt: current_page.data.title) %>
+                        </div>
+                        <!--end of image slider-->
+                    </div>
+                    <div class="col-md-5 col-md-offset-1 col-sm-6">
+                        <div class="description">
+                            <h4 class="uppercase"><%= current_page.data.title %></h4>
+                            <%= yield %>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of product single-->
+        </div>   
+
+        <%= partial "layouts/partials/footer" %>
+        
+        <%= javascript_include_tag "site" %>
+
+    </body>
