@@ -29,25 +29,26 @@ description:
     <!--end of container-->
 </section>
 
-<section>
-    <div class="container">
-        
-        <div class="row mb64 mb-xs-32">
-            <% blog('products').articles.each do |prod| %>
-                <div class="col-sm-6">
-                    <div class="image-caption cast-shadow hover-caption">
-                        <img alt="Captioned Image" src="img/fashion1.jpg">
-                        <div class="caption">
-                            <p>
-                                <strong><%= prod.title %></strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            <% end %>
+<div class="container">
+    <!--end of row-->
+    <div class="row masonry-loader fadeOut">
+        <div class="col-sm-12 text-center">
+            <div class="spinner"></div>
         </div>
-
-
     </div>
-    <!--end of container-->
-</section>
+    <div class="row masonry masonryFlyIn fadeIn" style="position: relative; height: 2062.5px;">
+        <% blog('products').articles.each do |prod| %>
+            <div class="col-sm-6 masonry-item project fadeIn" data-filter="People" style="position: absolute; left: 0px; top: 0px;">
+                <div class="image-tile inner-title hover-reveal text-center">
+                    <a href="<%= prod.url %>">
+                        <%= image_tag(prod.data.image || "/img/shop.jpg", alt: prod.data.title) %>
+                        <div class="title">
+                            <h5 class="uppercase mb0"><%= prod.title %></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        <% end %>
+    </div>
+    <!--end of row-->
+</div>
