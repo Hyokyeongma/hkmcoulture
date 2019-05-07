@@ -9,21 +9,37 @@ title: Home
 
 <%= partial "layouts/partials/slider" %>
 
-<section class="pt40 pb0">
+<div class="containr">
+    <div class="row">
+        <% blog('products').articles.reverse.first(2).each do |prod| %>
+            <div class="col-md-6 col-sm-6 p0">
+                <div class="image-tile inner-title hover-reveal text-center mb0">
+                    <a href="<%= prod.url.chomp('index.html').chomp('.html').chomp('/') %>">
+                    <%= image_tag(prod.data.image || "/img/shop.jpg", alt: prod.data.title) %>
+                    <div class="title">
+                        <h3 class="uppercase mb0"><%= prod.title %></h3>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        <% end %>
+    </div>
+    <!--end of row-->
+</div>
+
+
+<section>
     <div class="container">
         <div class="row">
-            <% blog('products').articles.reverse.first(2).each do |prod| %>
-                <div class="col-sm-6">
-                    <div class="image-tile inner-title title-center text-center">
-                        <a href="<%= prod.url.chomp('index.html').chomp('.html').chomp('/') %>">
-                            <%= image_tag(prod.data.image || "/img/shop.jpg", alt: prod.data.title) %>
-                            <div class="title">
-                                <h4 class="uppercase mb0"><%= prod.title %></h4>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            <% end %>
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                <h4 class="uppercase mb16">Instagram</h4>
+            </div>
+        </div>
+        <div class="row mb32 mb-xs-32">
+            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8d3b65747e625c8f9fe90afafebcf2d8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </div>
     </div>
 </section>
+
+
+

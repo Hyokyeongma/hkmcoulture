@@ -2,3 +2,52 @@
 .footer-1 {
 	font-size: 20px;
 }
+
+@font-face {
+	font-family: GothamLight;
+	src: url('../fonts/GothamLight.woff');
+}
+
+@font-face {
+	font-family: DidotBold;
+	src: url('../fonts/Didot\ Bold.ttf');
+}
+
+body,
+ul,
+ol,
+a,
+span,
+li,
+p,
+div {
+	font-family: GothamLight;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: DidotBold;
+}
+
+p {
+	font-size: 16px;
+	font-style: normal;
+	line-height: 26px;
+	color: #2b2a2a;
+}
+
+.menu {
+	font-size: 16px;
+}
+
+.menu > li ul {
+	background: #fff;
+}
+
+.menu > li > ul li a {
+	color: #2b2a2a;
+}
