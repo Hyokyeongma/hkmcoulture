@@ -27,22 +27,6 @@
             <title><%= current_page.data.title %> | <%= data.settings.main.site_name %></title>
         <% end %>
 
-        
-
-        <section class="image-square left">
-            <div class="col-md-6 image">
-                <div class="background-image-holder fadeIn" style="background: url('<%= current_page.data.image %>');">
-                    <img alt="image" class="background-image" src="<%= current_page.data.image %>" style="display: none;">
-                </div>
-            </div>
-            <div class="col-md-6 col-md-offset-1 content">
-                <h3><%= current_page.data.title %></h3>
-                <p class="mb0">
-                    <%= yield %>
-                </p>
-            </div>
-        </section>
-
 
         <section class="image-edge">
             <div class="col-md-6 col-sm-4 p0">

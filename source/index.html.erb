@@ -36,10 +36,26 @@ title: Home
             </div>
         </div>
         <div class="row mb32 mb-xs-32">
-            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8d3b65747e625c8f9fe90afafebcf2d8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+            <div id="instafeed"></div>
         </div>
     </div>
 </section>
 
 
-
+<% content_for :scripts do %>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+    <script>
+        var userFeed = new Instafeed({
+        get: 'user',
+        userId: '7572944716',
+        clientId: 'a34d5c4ab2fd47bb9faa2612ee086abc',
+        accessToken: '7572944716.1677ed0.5dba1cc4ba6f49529bb7d9ad33261f28',
+        resolution: 'standard_resolution',
+        template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
+        sortBy: 'most-recent',
+        limit: 4,
+        links: false
+        });
+        userFeed.run();
+    </script>
+<% end %>
