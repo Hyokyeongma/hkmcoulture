@@ -9,21 +9,21 @@ description:
     <meta name="description" content=<%= data.pages.about.description %> />
 <% end %>
 
-
-
-
-<section class="pt100 pb100 pt-xs-80 pb-xs-80">
-  <div class="container">
-    <div class="row">
-      <div class="row mb80 mb-xs-24">
-          <div class="col-sm-12 text-center">
-              <img alt="Image" src="<%= data.pages.about.image %>">
-          </div>
-      </div>
-
-      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-        <%= markdown data.pages.about.content %>
-      </div>
-    </div><!--end of row-->
-  </div><!--end of container-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="post-snippet mb64">
+                    <img class="mb24" alt="<%= data.pages.about.title %>" src="<%= data.pages.about.image %>">
+                    <div class="post-title">
+                        <h4 class="inline-block"><%= data.pages.about.title %></h4>
+                    </div>
+                    <%= markdown data.pages.about.content %>
+                </div>
+            </div>
+            <!--end of nine col-->
+        </div>
+        <!--end of container row-->
+    </div>
+    <!--end of container-->
 </section>

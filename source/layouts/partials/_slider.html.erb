@@ -1,18 +1,17 @@
 
 
-<section class="cover fullscreen parallax image-bg">
-    <div class="background-image-holder fadeIn" style="transform: translate3d(0px, 218.5px, 0px); background: url(&quot;<%= data.pages.home.banner %>&quot;);">
+<section class="bg-primary pt240 pb240 pt-xs-120 pb-xs-80 overlay image-bg">
+    <div class="background-image-holder fadeIn" style="background: url(&quot;<%= data.pages.home.banner %>&quot;);">
         <img alt="image" class="background-image" src="<%= data.pages.home.banner %>" style="display: none;">
     </div>
-    <div class="container v-align-transform">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center">
-                <h1 class="uppercase large mb8">
-                    <strong><%= data.settings.main.site_name %></h1>
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                <h3 class="mb56 mb-xs-24">
+                    <%= data.settings.main.site_name %>
+                </h3>
+                <a class="btn btn-lg btn-white mb0" href="/collection">Collection</a>
             </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-    
+        </div><!--end of row-->
+    </div><!--end of container-->
 </section>
