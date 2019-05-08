@@ -45,4 +45,4 @@ content: >-
 
   </span>
 
-  <s onclick="readMore()" id="myBtn" class="btn">Read more</a>
+  <a href="#" onclick="readMore()" id="myBtn" class="btn">Read more</a>
