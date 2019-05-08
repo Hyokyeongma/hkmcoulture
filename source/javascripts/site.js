@@ -10,5 +10,5 @@
 //=require 'countdown.min'
 //=require 'smooth-scroll.min'
 //=require 'parallax'
-//=require 'focus'
+//=require 'zoom'
 //=require 'scripts'
