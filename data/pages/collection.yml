@@ -7,6 +7,8 @@ content: >-
   succinct statements than words.
 
 
+  <span id="more">
+
   Universally understood, the emoji has become truly ingrained into modern life.
   But is social media really a twenty-first century trend, or have we been
   sharing and communicating in this way for centuries?
@@ -40,3 +42,7 @@ content: >-
   Italy forms the framework of each design. A trio of red hues becomes Hyo’s
   opulent signature - shades of scarlet, cadmium and deep cherry bring depth to
   lamb-leather linings.
+
+  </span>
+
+  <button onclick="readMore()" id="myBtn">Read more</button>
