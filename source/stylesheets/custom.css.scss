@@ -9,6 +9,11 @@
 }
 
 @font-face {
+	font-family: Zapfino;
+	src: url('../fonts/Zapfino.woff');
+}
+
+@font-face {
 	font-family: DidotBold;
 	src: url('../fonts/Didot\ Bold.ttf');
 }
@@ -83,5 +88,11 @@ nav.nav-centered .logo {
 }
 
 body > section > div.container.v-align-transform > div > div > h1 {
+	text-shadow: 1px 2px 3px #000;
+}
+
+p.zap {
+	font-family: Zapfino;
+	font-size: 24px;
 	text-shadow: 1px 2px 3px #000;
 }
