@@ -48,4 +48,4 @@ content: >-
 
   <br/>
 
-  <a href="#" onclick="readMore()" id="myBtn" class="btn">Read more</a>
+  <button onclick="readMore()" id="myBtn" class="btn">Read more</button>
