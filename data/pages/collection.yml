@@ -45,4 +45,6 @@ content: >-
 
   </span>
 
+  <br/>
+
   <a href="#" onclick="readMore()" id="myBtn" class="btn">Read more</a>
