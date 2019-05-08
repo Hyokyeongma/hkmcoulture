@@ -28,18 +28,18 @@
         <% end %>
 
 
-        <section class="image-edge">
-            <div class="col-md-6 col-sm-4 p0">
-                <img id="zoom" alt="<%= current_page.data.title %>" src="<%= current_page.data.image %>" />
-            </div>
-            <div class="container">
-                <div class="col-md-5 col-md-offset-1 col-sm-7 col-sm-offset-1 v-align-transform right">
-                    <h3><%= current_page.data.title %></h3>
-                        
-                    <%= yield %>
+        
+
+        <section class="image-square left">
+            <div class="col-md-6 image">
+                <div class="background-image-holder fadeIn" style="background: url(&quot;<%= current_page.data.image %>&quot;);">
+                    <img id="zoom" alt="image" class="background-image" src="<%= current_page.data.image %>" style="display: none;">
                 </div>
             </div>
-            <!--end of container-->
+            <div class="col-md-6 col-md-offset-1 content">
+                <h3><%= current_page.data.title %></h3>
+                <%= yield %>
+            </div>
         </section>
 
 
@@ -50,7 +50,7 @@
 
         <script>
             $(document).ready(function(){
-            $('img')
+            $('img#zoom')
                 .wrap('<span style="display:inline-block"></span>')
                 .css('display', 'block')
                 .parent()
