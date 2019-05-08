@@ -9,6 +9,17 @@ description:
     <meta name="description" content=<%= data.pages.collection.description %> />
 <% end %>
 
+<section class="pt-xs-80 pb-xs-80">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+        <h3>CAVE WALL TO TOUCHPAD</h3>
+        <%= markdown data.pages.collection.content %>
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
 <section class="pb0">
     <div class="container">
         <div class="row">
@@ -28,12 +39,22 @@ description:
     </div>
 </section>
 
-<section class="pt-xs-80 pb-xs-80">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-        <%= markdown data.pages.collection.content %>
-      </div>
-    </div><!--end of row-->
-  </div><!--end of container-->
-</section>
+<% content_for :scripts do %>
+    <script>
+        function readMore() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+        }
+        }
+    </script>
+<% end %>
