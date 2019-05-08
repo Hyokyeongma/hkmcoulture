@@ -29,8 +29,8 @@
 
 
         <section class="image-edge">
-            <div class="col-md-6 col-sm-4 p0">
-                <img alt="<%= current_page.data.title %>" src="<%= current_page.data.image %>" />
+            <div class="col-md-6 col-sm-4 p0 demo-area">
+                <img class="demo-trigger" data-zoom="<%= current_page.data.image %>" alt="<%= current_page.data.title %>" src="<%= current_page.data.image %>" />
             </div>
             <div class="container">
                 <div class="col-md-5 col-md-offset-1 col-sm-7 col-sm-offset-1 v-align-transform right">
@@ -47,5 +47,18 @@
         <%= partial "layouts/partials/footer" %>
         
         <%= javascript_include_tag "site" %>
+
+        <% content_for :scripts do %>
+            <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/164071/Drift.min.js"></script>
+            <script>
+               var demoTrigger = document.querySelector('.demo-trigger');
+                var paneContainer = document.querySelector('.detail');
+
+                new Drift(demoTrigger, {
+                paneContainer: paneContainer,
+                inlinePane: false,
+                });
+            </script>
+        <% end %>
 
     </body>
