@@ -7,18 +7,8 @@ We all know at least one Instagram Poseur. In this wit-injected creation, a coll
 
 Open the gold metal clasp to reveal the scarlet-red lamb-leather lining, including a zipped pocket and the designer’s hand-stitched label - a beautiful calling card. Two interchangeable straps - one leather and one chain - ensure this piece is as practical as it is beautiful.
 
-**Dimension**
-
-o Width: 26cm
-
-o Height: 20cm
-
-o Handle: 5cm
-
-o Depth: 10cm
-
 **Details**
 
 o Made in England
 
-o H: 20cm x W: 26cm x D: 10 cm
+o H: 20cm x W: 26cm x D: 10cm
