@@ -7,18 +7,8 @@ Golden python skin makes a suitably decadent backdrop for this creation. Stitche
 
 Sealed by a gold metal clasp and key, the interior is lined in scarlet lamb leather and features a hand-stitched label on the zipped pocket - a beautiful final touch to this one-of-a-kind piece.
 
-**Dimension**
-
-o Width: 26cm
-
-o Height: 20cm
-
-o Handle: 5cm
-
-o Depth: 10cm
-
 **Details**
 
 o Made in England
 
-o H: 20cm x W: 26cm x D: 10 cm
+o H: 20cm x W: 26cm x D: 10cm
