@@ -9,7 +9,7 @@ content: >-
 
   <div>
     <br>
-   <span id="text">
+   <span id="text" style="display: none;">
   Universally understood, the emoji has become truly ingrained into modern life.
   But is social media really a twenty-first century trend, or have we been
   sharing and communicating in this way for centuries?
