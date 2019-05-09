@@ -16,3 +16,9 @@ o Height: 20cm
 o Handle: 5cm
 
 o Depth: 10cm
+
+**Details**
+
+o Made in England
+
+o H: 20cm x W: 26cm x D: 10 cm
