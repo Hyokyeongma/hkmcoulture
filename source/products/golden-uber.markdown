@@ -7,18 +7,8 @@ The product of exquisite workmanship, this artisanal box bag is crafted from bla
 
 A functional clasp and key secures the design, while a single top handle and two interchangeable shoulder straps - one leather and one chain - offer versatility. The interior zipped pocket is a practical consideration, while a deep cherry-red, lamb-leather lining and hand-stitched label ensures a flawless finish.
 
-**Dimensions**
-
-o Width: 26cm
-
-o Height: 20cm
-
-o Handle: 5cm
-
-o Depth: 10cm
-
 **Details**
 
 o Made in England
 
-o H: 20cm x W: 26cm x D: 10 cm
+o H: 20cm x W: 26cm x D: 10cm
