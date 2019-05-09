@@ -7,18 +7,8 @@ In deep-blue python skin, this box bag blends traditional craftsmanship with a m
 
 Genuine gold threads, black-diamond and ruby beads illuminate the supreme workmanship, while gold hardware forms a polished framework. The interior, lined with deep cherry-red lamb leather, hosts a zipped pocket and bears the designer’s hand-stitched label. Interchangeable leather and chain shoulder straps ensure day-to-night elegance, while functional keys swing by the side of the clasp.
 
-**Dimension**
-
-o Width: 26cm
-
-o Height: 20cm
-
-o Handle: 5cm
-
-o Depth: 10cm
-
 **Details**
 
 o Made in England
 
-o H: 20cm x W: 26cm x D: 10 cm
+o H: 20cm x W: 26cm x D: 10cm
