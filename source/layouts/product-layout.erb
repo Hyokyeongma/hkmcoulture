@@ -48,6 +48,28 @@
         </section>
 
 
+        <section>
+            <div class="container">
+                <div class="product-single">
+                    <div class="row mb24 mb-xs-48">
+                        <div class="col-md-5 col-sm-6">
+                            <img class="cast-shadow" alt="<%= current_page.data.title %>" src="<%= current_page.data.image %>>
+                            <!--end of image slider-->
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 col-sm-6">
+                            <div class="description">
+                                <h4 class="uppercase"><%= current_page.data.title %></h4>
+                                <hr class="mb48 mb-xs-24">
+                                <%= yield %>
+                        </div>
+                    </div>
+                </div>
+                <!--end of product single-->
+            </div>
+            <!--end of container-->
+        </section>
+
+
 
         <%= partial "layouts/partials/footer" %>
         
