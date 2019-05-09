@@ -7,18 +7,8 @@ This black ostrich-leather box bag takes a satirical swipe at materialism in the
 
 Genuine gold threads bring a flicker of light, while a cadmium-red lamb-leather lining makes an opulent finishing touch. This piece comes accompanied by two interchangeable shoulder straps - one leather, one chain - as well as an elegant top handle for versatility, and may be secured using the functional lock and key. Inside, a zipped pocket provides practicality, while the hand-stitched label cements the designer’s flawless attention to detail.
 
-**Dimension**
-
-o Width: 26cm
-
-o Height: 20cm
-
-o Handle: 5cm
-
-o Depth: 10cm
-
 **Details**
 
 o Made in England
 
-o H: 20cm x W: 26cm x D: 10 cm
+o H: 20cm x W: 26cm x D: 10cm
