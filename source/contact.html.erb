@@ -20,16 +20,16 @@ description:
             </p>
           </div>
 
-          <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly." action="https://formspree.io/enquiries@hyokyeongma.com" method="POST">
+          <form action="https://formspree.io/enquiries@hyokyeongma.com" method="POST">
           <div class="col-sm-6 col-md-5">
-              <input type="text" class="validate-required" name="first_name" placeholder="First Name">
-              <input type="text" class="validate-required" name="last_name" placeholder="Last Name">
-              <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
-              <input type="text" class="validate-required" name="phone" placeholder="Contact Phone">
+              <input type="text" required="required" name="first_name" placeholder="First Name">
+              <input type="text" required="required" name="last_name" placeholder="Last Name">
+              <input type="text" required="required" name="email" placeholder="Email Address">
+              <input type="text" required="required" name="phone" placeholder="Contact Phone">
           </div>
           <div class="col-sm-6 col-md-5 col-md-offset-1">
-            <input type="text" class="validate-required" name="subject" placeholder="Subject">
-            <textarea class="validate-required" name="message" rows="6" placeholder="Message"></textarea>
+            <input type="text" required="required" name="subject" placeholder="Subject">
+            <textarea required="required" name="message" rows="6" placeholder="Message"></textarea>
             <button type="submit">Send Message</button>
           </div>
 
