@@ -1,52 +1,174 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
 <url>
-  <loc>http://hkmcouture.com/</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/about</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/collection</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/about</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/products/golden-uber</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/collection</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/products/tinder-enigma</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/products/golden-uber</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/products/finegrape</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/products/tinder-enigma</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/products/uber-sublime</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/products/finegrape</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/products/instagram-poseur</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/products/uber-sublime</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/products/snapchat-dream</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/products/instagram-poseur</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
 <url>
-  <loc>http://hkmcouture.com/contact</loc>
-  <priority>1.0</priority>
-  <changefreq>hourly</changefreq>
-</url>
+
+    <loc>https://hkmcouture.com/products/snapchat-dream</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
+<url>
+
+    <loc>https://hkmcouture.com/contact</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
+<url>
+
+    <loc>https://hkmcouture.com/{{link}}</loc>
+
+    <lastmod>2019-05-13</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+
+
+    <priority>0.5</priority>
+
+</url>  
+
+</urlset>
+      
