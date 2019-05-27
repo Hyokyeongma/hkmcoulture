@@ -156,19 +156,6 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 
 </url>  
 
-<url>
-
-    <loc>https://hkmcouture.com/{{link}}</loc>
-
-    <lastmod>2019-05-13</lastmod>
-
-    <changefreq>monthly</changefreq>
-
-
-
-    <priority>0.5</priority>
-
-</url>  
 
 </urlset>
       
