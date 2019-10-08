@@ -1,21 +1,21 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 .footer-1 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 @font-face {
-	font-family: AvenirLTStd-Roman;
-	src: url('../fonts/AvenirLTStd-Roman.woff');
+  font-family: AvenirLTStd-Roman;
+  src: url('../fonts/AvenirLTStd-Roman.woff');
 }
 
 @font-face {
-	font-family: Zapfino;
-	src: url('../fonts/Zapfino.woff');
+  font-family: Zapfino;
+  src: url('../fonts/Zapfino.woff');
 }
 
 @font-face {
-	font-family: DidotBold;
-	src: url('../fonts/Didot\ Bold.ttf');
+  font-family: DidotBold;
+  src: url('../fonts/Didot\ Bold.ttf');
 }
 
 body,
@@ -26,7 +26,7 @@ span,
 li,
 p,
 div {
-	font-family: AvenirLTStd-Roman;
+  font-family: AvenirLTStd-Roman;
 }
 
 h1,
@@ -35,69 +35,79 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: DidotBold;
+  font-family: DidotBold;
 }
 
 p,
 #text {
-	font-size: 16px;
-	font-style: normal;
-	line-height: 28px;
-	color: #2b2a2a;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 28px;
+  color: #2b2a2a;
 }
 
 .menu {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .menu > li ul {
-	background: #fff;
+  background: #fff;
 }
 
 .menu > li > ul li a {
-	color: #2b2a2a;
+  color: #2b2a2a;
 }
 
 #instafeed {
-	max-width: 1080px;
-	width: 100%;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 #instafeed a {
-	display: flex;
-	align-items: center;
-	position: relative;
-	width: 50%;
-	background: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  background: white;
 }
 @media only screen and (min-width: 580px) {
-	#instafeed a {
-		width: 25%;
-	}
+  #instafeed a {
+    width: 25%;
+  }
+
+  #instafeed a img {
+    padding: 0px;
+  }
 }
 #instafeed a img {
-	display: block;
-	width: 100%;
-	height: 250px !important;
-	padding: 10px !important;
+  display: block;
+  width: 100%;
+  height: 250px !important;
+  padding: 10px;
 }
 
 nav.nav-centered .logo {
-	max-height: 120px;
+  max-height: 120px;
 }
 
 body > section > div.container.v-align-transform > div > div > h1 {
-	text-shadow: 1px 2px 3px #000;
+  text-shadow: 1px 2px 3px #000;
 }
 
 p.zap {
-	font-family: Zapfino;
-	font-size: 24px;
-	text-shadow: 1px 2px 3px #000;
+  font-family: Zapfino;
+  font-size: 24px;
+  text-shadow: 1px 2px 3px #000;
 }
 
 .insta {
-	font-size: 20px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+  #instafeed a img {
+    padding: 0px;
+  }
 }
