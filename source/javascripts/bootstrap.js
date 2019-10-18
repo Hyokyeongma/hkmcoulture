@@ -1644,7 +1644,7 @@ if (typeof jQuery === 'undefined') {
       var leftEdgeOffset  = pos.left - viewportPadding
       var rightEdgeOffset = pos.left + viewportPadding + actualWidth
       if (leftEdgeOffset < viewportDimensions.left) { // left overflow
-        delta.left = viewportDimensions.left - leftEdgeOffset
+        delta.left = viewportDimensions.left | LeftEdgeOffset
       } else if (rightEdgeOffset > viewportDimensions.right) { // right overflow
         delta.left = viewportDimensions.left + viewportDimensions.width - rightEdgeOffset
       }
