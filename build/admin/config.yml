@@ -1,0 +1,120 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: source/img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: "data/pages/home.yml"
+        label: Homepage
+        name: home
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              required: false,
+            }
+          - { label: Banner, name: banner, widget: image, required: false }
+      - file: "data/pages/about.yml"
+        label: About
+        name: about
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              required: false,
+            }
+          - { label: Header, name: header, widget: image, required: false }
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: "About content", name: "content", widget: "markdown" }
+      - file: "data/pages/designer.yml"
+        label: Designer
+        name: designer
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              required: false,
+            }
+          - { label: Header, name: header, widget: image, required: false }
+          - {
+              label: SectionImage,
+              name: sectionImage,
+              widget: image,
+              required: false,
+            }
+          - { label: Image1, name: image1, widget: image, required: false }
+          - { label: "About content1", name: "content1", widget: "markdown" }
+          - { label: Image2, name: image2, widget: image, required: false }
+          - { label: "About content2", name: "content2", widget: "markdown" }
+      - file: "data/pages/contact.yml"
+        label: Contact
+        name: contact
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              required: false,
+            }
+          - { label: "Contact content", name: "content", widget: string }
+      - file: "data/pages/collection.yml"
+        label: Collection
+        name: collection
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              required: false,
+            }
+          - { label: "Collection content", name: "content", widget: markdown }
+  - name: settings
+    label: Settings
+    files:
+      - file: data/settings/main.yml
+        label: Main
+        name: main
+        fields:
+          - {
+              label: site_name,
+              name: site_name,
+              widget: string,
+              required: false,
+            }
+          - { label: subtitle, name: subtitle, widget: string, required: false }
+          - { label: email, name: email, widget: string, required: false }
+          - {
+              label: instagram,
+              name: instagram,
+              widget: string,
+              required: false,
+            }
+  - name: "product" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Product" # Used in the UI, ie.: "New Post"
+    folder: "source/products" # The path to the folder where the documents are stored
+    extension: .markdown
+    format: frontmatter
+    create: true
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: Image, name: image, widget: image }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          required: true,
+        }
