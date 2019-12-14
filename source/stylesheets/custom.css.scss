@@ -5,17 +5,17 @@
 
 @font-face {
   font-family: AvenirLTStd-Roman;
-  src: url('../fonts/AvenirLTStd-Roman.woff');
+  src: url("../fonts/AvenirLTStd-Roman.woff");
 }
 
 @font-face {
   font-family: Zapfino;
-  src: url('../fonts/Zapfino.woff');
+  src: url("../fonts/Zapfino.woff");
 }
 
 @font-face {
   font-family: DidotBold;
-  src: url('../fonts/Didot\ Bold.ttf');
+  src: url("../fonts/Didot\ Bold.ttf");
 }
 
 body,
@@ -110,4 +110,8 @@ p.zap {
   #instafeed a img {
     padding: 0px;
   }
+}
+
+.pt-0 {
+  padding-top: 0;
 }

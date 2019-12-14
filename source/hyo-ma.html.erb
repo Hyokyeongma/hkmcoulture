@@ -1,0 +1,57 @@
+---
+title: Hyo Ma
+description: 
+---
+
+
+<% content_for :metas do %>
+    <title><%= data.pages.designer.title %> | <%= data.settings.main.site_name %></title>
+    <meta name="description" content=<%= data.pages.designer.description %> />
+<% end %>
+
+<section class="pt-0 pb0">
+    <div class="row">
+      <img class="mb24" alt="<%= data.pages.designer.title %>" src="<%= data.pages.designer.header %>">
+    
+      <div class="container mt24">
+        <div class="col-sm-6">
+            <div class="post-snippet mb64">      
+                <div class="post-title">
+                    <h4 class="inline-block"><%= data.pages.designer.title %></h4>
+                </div>
+                <%= markdown data.pages.designer.content1 %>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="post-snippet mb64">
+                <img class="mb24" alt="<%= data.pages.about.title %>" src="<%= data.pages.designer.image1 %>">
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="image-bg bg-dark parallax overlay pt240 pb240">
+    <div class="background-image-holder fadeIn" style="transform: translate3d(0px, 295.5px, 0px); background: url("<%= data.pages.designer.sectionImage %>");">
+        <img alt="Background Image" class="background-image" src="<%= data.pages.designer.sectionImage %>" style="display: none;">
+    </div> 
+    <!--end of container-->
+</section>
+
+<section>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="post-snippet mb64">
+                <img class="mb24" alt="<%= data.pages.about.title %>" src="<%= data.pages.designer.image2 %>">
+            </div>
+        </div>
+        <div class="container mt24">
+          <div class="col-sm-6">
+              <div class="post-snippet mb64">   
+                  <%= markdown data.pages.designer.content2 %>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
