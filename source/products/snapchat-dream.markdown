@@ -9,6 +9,6 @@ Sealed by a gold metal clasp and key, the interior is lined in scarlet lamb leat
 
 **Details**
 
-o Made in England
+o Made in London
 
 o H: 20cm x W: 26cm x D: 10cm
