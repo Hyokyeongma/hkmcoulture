@@ -9,6 +9,6 @@ Genuine gold threads bring a flicker of light, while a cadmium-red lamb-leather 
 
 **Details**
 
-o Made in England
+o Made in London
 
 o H: 20cm x W: 26cm x D: 10cm
