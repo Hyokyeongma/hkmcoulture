@@ -9,6 +9,6 @@ Genuine gold threads, black-diamond and ruby beads illuminate the supreme workma
 
 **Details**
 
-o Made in England
+o Made in London
 
 o H: 20cm x W: 26cm x D: 10cm
