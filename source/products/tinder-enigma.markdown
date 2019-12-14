@@ -9,6 +9,6 @@ This piece secures with a gold metal clasp. The functional keys swing to one sid
 
 **Details**
 
-o Made in England
+o Made in London
 
 o H: 20cm x W: 26cm x D: 10cm
