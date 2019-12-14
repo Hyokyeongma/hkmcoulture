@@ -9,6 +9,6 @@ Open the gold metal clasp to reveal the scarlet-red lamb-leather lining, includi
 
 **Details**
 
-o Made in England
+o Made in London
 
 o H: 20cm x W: 26cm x D: 10cm
